@@ -101,7 +101,11 @@
 
 ### [MQTT Topic Format]
 - MQTT 메시지를 Topic를 기반으로 구분하여 사진 촬영 요청과 응답을 수행합니다.
-  ![Topic](https://github.com/user-attachments/assets/4d510a81-6204-45f4-aba8-0d487db1553e)
+  #### Topics and Message Formats
+  | Topic Name  | Publisher     | Subscriber    | Message Format                                                                                  | Description         |
+  | ----------- | ------------- | ------------- | ------------------------------------------------------------------------------------------------ | ------------------- |
+  | `pic/topic` | Raspberry Pi  | EC2           | `{"file_url": file_url, "sensor_data": thermal_data}`                                             | Thermal image data  |
+  | `snap/topic`| EC2           | Raspberry Pi  | `{"deviceID": 1, "action": "snap"}`                                                               | Photo capture request |
 
 
 ## 5. 문제 해결 🚀
