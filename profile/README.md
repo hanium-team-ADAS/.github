@@ -19,6 +19,7 @@
 - **하드웨어:** Raspberry Pi, 열화상 카메라 모듈
 
 ## 4. 설계 📐
+### 4.1 서비스 구성도 및 흐름도 - 예지
 ### [서비스 구성도]
 - 프론트엔드 서버(React), 벡엔드 서버(Spring 서버), IoT Core, AI 서버(FastAPI), 데이터베이스 서버(Amazon RDS)로 구성되어있습니다.
   ![서비스 구성도](https://github.com/user-attachments/assets/fb6a2c87-d3cc-4cf9-bcf5-3ef83ef62019)
