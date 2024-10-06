@@ -36,29 +36,35 @@
 - 데이터 수집부터 모델 학습 및 예측 과정에 대한 간단한 설명과 모델 구조를 포함합니다.
 
 ### 4.3 서버(Spring) 설계 - 송희
-- **ERD:** 데이터베이스 구조를 명확하게 시각화합니다.
-- **API 명세:** 각 기능에 대한 API 명세를 작성하여 개발 및 테스트에 활용할 수 있습니다.
+- **ERD**
+<img src="https://github.com/user-attachments/assets/1a839149-5547-4c79-b476-595f84f3e5a7" alt="image" width="300"/>
+
+
+- **API 명세**
+<img src="https://github.com/user-attachments/assets/de70a6b8-2fa7-47f1-8298-824d90df15a6" alt="image1" width="300"/>
+<img src="https://github.com/user-attachments/assets/5805ba8b-2e57-4f51-8e0e-06b73fdf3c48" alt="image2" width="300"/>
+
+
 
 ### 4.4 클라이언트 화면 구성 - 서영
-- 각 화면의 주요 기능을 스크린샷과 함께 설명합니다.
 
 ### [초기화면]
 - 페이지 초기 화면으로 상단바와 중앙 버튼으로 원하는 페이지로의 이동이 가능합니다.
 
-![main](https://github.com/user-attachments/assets/cd74b2a3-aa47-4439-a141-80e4b5091f21)
+<img src="https://github.com/user-attachments/assets/cd74b2a3-aa47-4439-a141-80e4b5091f21" alt="main" width="500" />
 
 ### [회원가입]
 - 필드 입력 후 하단 회원가입 버튼을 눌러 회원가입 가능합니다.
   - 사용자 유형에 따라 다른 페이지를 제공합니다.
     
-![doctorSignup](https://github.com/user-attachments/assets/af6f2cc7-f069-4ee5-98ae-0d30726018fa)
-![patientSignup](https://github.com/user-attachments/assets/8815a9e8-3543-4eca-8abf-2cefe793868a)
+<img src="https://github.com/user-attachments/assets/af6f2cc7-f069-4ee5-98ae-0d30726018fa" alt="doctorSignup" width="500"/>
+<img src="https://github.com/user-attachments/assets/8815a9e8-3543-4eca-8abf-2cefe793868a" alt="patientSignup" width="500"/>
 
 ### [로그인]
 - 기존 회원의 경우 : 사용자 유형 선택 후 이메일과 비밀번호를 입력하여 로그인 가능합니다.
 - 기존 회원이 아닌 경우 : 하단의 사용자 유형에 따른 회원가입 페이지로의 이동을 유도합니다.
   
-![login](https://github.com/user-attachments/assets/b91e4004-e3e8-4c12-adcc-d6d2c2285cc6)
+<img src="https://github.com/user-attachments/assets/b91e4004-e3e8-4c12-adcc-d6d2c2285cc6" alt="login" width="500"/>
 
 ### [진료 예약 페이지]
 - 예약 메뉴 선택시 일반 회원에게 보여지는 페이지입니다.
@@ -67,8 +73,7 @@
   - 우측 달력에서 날짜 선택시 해당 날짜의 예약 내역을 조회 할 수 있습니다.
       - 예약 취소가 가능합니다.
         
-![KakaoTalk_20240902_012314761](https://github.com/user-attachments/assets/bb5dbd99-5c8e-4a06-938e-b4b41dc6ecc1)
-
+<img src="https://github.com/user-attachments/assets/bb5dbd99-5c8e-4a06-938e-b4b41dc6ecc1" alt="진료 예약 페이지" width="500"/>
 
 ### [진료 일정 조회 페이지]
 - 예약 메뉴 선택시 의사 회원에게 보여지는 페이지입니다.
@@ -78,8 +83,7 @@
       - 수락한 예약
       - 거절한 예약
         
-![KakaoTalk_20240902_012314761_01](https://github.com/user-attachments/assets/02bbff30-4456-474f-a615-f9768f3676ec)
-
+<img src="https://github.com/user-attachments/assets/02bbff30-4456-474f-a615-f9768f3676ec" alt="진료 일정 조회 페이지" width="500"/>
 
 ### [원격 진료 페이지]
 - 화상 통화 기능 제공
@@ -88,7 +92,8 @@
   - 오른쪽 상단 버튼을 통해 체온 측정이 가능합니다.
   - 측정된 체온은 즉시 확인 할 수 있습니다.
     
-![1](https://github.com/user-attachments/assets/cf1eab92-8ea2-480d-aecd-0439e21ae1d9)
+<img src="https://github.com/user-attachments/assets/cf1eab92-8ea2-480d-aecd-0439e21ae1d9" alt="원격 진료 페이지" width="500"/>
+
 
 
 
