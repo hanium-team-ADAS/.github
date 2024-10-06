@@ -22,14 +22,14 @@
 ### 4.1 서비스 구성도 및 흐름도 - 예지
 ### [서비스 구성도]
 - 프론트엔드 서버(React), 벡엔드 서버(Spring 서버), IoT Core, AI 서버(FastAPI), 데이터베이스 서버(Amazon RDS)로 구성되어있습니다.
-  ![서비스 구성도](https://github.com/user-attachments/assets/fb6a2c87-d3cc-4cf9-bcf5-3ef83ef62019)
-
+  <img src="https://github.com/user-attachments/assets/fb6a2c87-d3cc-4cf9-bcf5-3ef83ef62019" alt="서비스 구성도" width="500"/>
 
 ### [흐름도]
 - 환자가 회원 가입과 로그인 후 진료 예약 및 진료를 진행하는 과정을 수행합니다.
-  ![환자흐름도](https://github.com/user-attachments/assets/67d3fa33-5688-46de-9822-5e4815373f02)
+  <img src="https://github.com/user-attachments/assets/67d3fa33-5688-46de-9822-5e4815373f02" alt="환자흐름도" width="500"/>
 - 의사는 회원 가입과 로그인 후 일정 조회 및 진료를 수행하는 과정을 수행합니다.
-  ![의사흐름도](https://github.com/user-attachments/assets/bd49723b-7961-48aa-b3dd-749a21953b8a)
+  <img src="https://github.com/user-attachments/assets/bd49723b-7961-48aa-b3dd-749a21953b8a" alt="의사흐름도" width="500"/>
+
 
 
 ### 4.2 모델 설계 - 효원
@@ -37,12 +37,12 @@
 
 ### 4.3 서버(Spring) 설계 - 송희
 - **ERD**
-<img src="https://github.com/user-attachments/assets/1a839149-5547-4c79-b476-595f84f3e5a7" alt="image" width="300"/>
+<img src="https://github.com/user-attachments/assets/1a839149-5547-4c79-b476-595f84f3e5a7" alt="image" width="500"/>
 
 
 - **API 명세**
-<img src="https://github.com/user-attachments/assets/de70a6b8-2fa7-47f1-8298-824d90df15a6" alt="image1" width="300"/>
-<img src="https://github.com/user-attachments/assets/5805ba8b-2e57-4f51-8e0e-06b73fdf3c48" alt="image2" width="300"/>
+<img src="https://github.com/user-attachments/assets/de70a6b8-2fa7-47f1-8298-824d90df15a6" alt="image1" width="500"/>
+<img src="https://github.com/user-attachments/assets/5805ba8b-2e57-4f51-8e0e-06b73fdf3c48" alt="image2" width="500"/>
 
 
 
