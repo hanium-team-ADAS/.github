@@ -12,7 +12,7 @@
 - **정윤제:** AI
 
 ## 3. 기술 스택 💻
-- **백엔드:** Spring, WebRTC, MySQL
+- **백엔드:** Spring Boot, WebRTC, MySQL
 - **프론트엔드:** React, HTML, CSS
 - **AI 모델:** TensorFlow, OpenCV
 - **클라우드:** AWS, Docker
